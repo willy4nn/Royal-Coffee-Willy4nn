@@ -7,18 +7,19 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Royal Coffee</title>
 </head>
-<body>
+<body id="body">
     <header class="header">
         <div class="container">
-            <img class="header-img" src="./img/Header-Logo.svg" alt="Logo da cafeteria Royal Coffee">
+            <img class="header-img" src="./img/royalcoffee-logo.svg" alt="Logo da cafeteria Royal Coffee">
             <nav id="header-nav" class="header-nav">
                 <div class="container-content">
-                    <div id="header-nav-btn-mobile" class="header-nav-btn-mobile">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <ul class="header-nav-list header-nav-list-active">
+                    <a href="#header-nav">
+                        <svg id="header-nav-btn-mobile" class="header-nav-btn-mobile" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                            <path fill="none" d="M0 0h24v24H0z"/>
+                            <path d="M3 4h18v2H3V4zm0 7h12v2H3v-2zm0 7h18v2H3v-2z" fill="rgba(245,247,250,1)"/>
+                        </svg>
+                    </a>
+                    <ul class="header-nav-list" src="">
                         <li>
                             <a href="/">Facebook</a>
                         </li>
@@ -32,8 +33,10 @@
                 </div>
             </nav>
             <a class="header-contact" href="/">
-                <img src="./img/Icon-Telefone.svg" alt="">
-                Contato
+                <img src="./img/phone.svg" alt="">
+                <p>
+                    Contato
+                </p>
             </a>
         </div>
     </header>
@@ -47,10 +50,10 @@
                         <br>
                         Um <b>bom café</b> e um <b>bom livro</b>. ☕📖
                     </p>
-                    <a href="">Saber Mais</a>
+                    <a href="#section-list">Saber Mais</a>
                 </div>
                 <div class="area-image">
-                    <img src="./img/Main-Image.svg" alt="">
+                    <img src="./img/illustration-main.svg" alt="">
                 </div>
             </div>
             </section>
@@ -58,8 +61,8 @@
                 <div class="container">
                     <h2 class="second-section-title">A vibe que você precisa</h2>
                     <div class="content">
-                        <img class="second-section-image" src="./img/pexels-chevanon-photography-333523.jpg" alt="">
-                        <ul class="second-section-list">
+                        <img class="second-section-image" src="./img/coffee-photography.jpg" alt="">
+                        <ul id="section-list" class="second-section-list">
                             <li class="second-section-list-item">
                                 <h3>Ambiente Vintage</h3>
                                 <p>
@@ -86,34 +89,54 @@
                 <h2 class="third-section-title">O café do seu jeito</h2>
             </section>
     </main>
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container">
-            <img class="footer-image" src="./img/Royal Coffee.svg" alt="">
+            <img class="footer-image" src="./img/royalcoffee-logo.svg" alt="">
             <div class="footer-contact">
                 <h3>Contato</h3>
                 <div class="footer-contact-item">
-                    <img src="./img/home.svg" alt="">
-                    <p>Rua Ali Perto, 19, São Paulo - SP</p>
+                    <img src="./img/localization.svg" alt="">
+                    <p>rua Ali Perto, 19, São Paulo - SP</p>
                 </div>
                 <div class="footer-contact-item">
-                    <img src="./img/email.svg" alt="">
-                    <p>RoyalCoffee@gmail.com</p>
+                    <img src="./img/mail.svg" alt="">
+                    <a href="/" target="_blank">
+                        <p>royalcoffee@gmail.com</p>
+                    </a>
                 </div>
                 <div class="footer-contact-item">
-                    <img src="./img/Call.svg" alt="">
-                    <p>+55 81 9999-9999</p>
+                    <img src="./img/phone-2.svg" alt="">
+                    <a href="/" target="_blank">
+                        <p>+55 81 9999-9999</p>
+                    </a>
                 </div>
             </div>
             <div class="footer-social">
                 <h3>Links</h3>
                 <ul>
-                    <li><a href=""><img src="./img/icons8-facebook-novo.svg" alt=""></a></li>
-                    <li><a href=""></a><img src="./img/icons8-instagram (2).svg" alt=""></li>
-                    <li><a href=""><img src="./img/icons8-whatsapp.svg" alt=""></a></li>
+                    <li>
+                        <a href="/">
+                            <img src="./img/facebook.svg" alt="">
+                            facebook
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/">
+                            <img src="./img/instagram.svg" alt="">
+                            instagram
+                        </a>
+                        
+                    </li>
+                    <li>
+                        <a href="/"> 
+                            <img src="./img/whatsapp.svg" alt="">
+                            whatsapp
+                        </a>
+                     </li>
                 </ul>
             </div>
         </div>
-    </footer> -->
+    </footer>
     <script src="./script/script.js"></script>
 </body>
 </html>
