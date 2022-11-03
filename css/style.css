@@ -536,7 +536,7 @@ body.scroll {
 
         width: 100%;
         max-width: 1200px;
-        height: calc(100vh + 60px);
+        height: 100vh;
 
         background-color: var(--c1);
 
