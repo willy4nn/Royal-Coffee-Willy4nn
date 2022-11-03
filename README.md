@@ -2,10 +2,10 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-EM%20DESENVOLVIMENTO-brightgreen""/>
-  <img src="https://img.shields.io/badge/RELEASE-1.0.0-blue">
+  <img src="https://img.shields.io/badge/RELEASE-1.1.0-blue">
 </p>
 
-![Royal Coffee Landing Page Image](https://user-images.githubusercontent.com/101363317/198734234-c099ec20-91c7-456f-827e-101efbc61add.png)
+![Royal Coffee print](https://user-images.githubusercontent.com/101363317/199817379-b83ec075-6515-408b-bf7e-2d1c0c5534f5.png)
 
 <h2> ✔️ Resumo do projeto </h2>
 <p><b>Page:</b> https://willy4nn.github.io/Landing_Page-Royal_Coffee/ </p>
@@ -15,3 +15,10 @@
 
 - ``HTML``
 - ``CSS``
+- ``JAVASCRIPT``
+
+<h2> ✔️ Últimas atualizações </h2>
+
+- ``Responsividade adicionada``
+- ``Efeitos visuais css em botões/links``
+- ``Menu mobile criado com JavaScript``
