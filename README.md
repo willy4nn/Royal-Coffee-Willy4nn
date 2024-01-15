@@ -1,4 +1,4 @@
-<h1 align="center"> Landing Page - Royal Coffee </h1>
+<h1 align="center"> Royal Coffee </h1>
 
 <p align="center">
   <img src="https://img.shields.io/badge/STATUS-CONCLUÍDO-brightgreen""/>
